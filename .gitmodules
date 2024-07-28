@@ -1,0 +1,3 @@
+[submodule "Backend/habit_be"]
+	path = Backend/habit_be
+	url = https://github.com/iusekarma/habit_be
