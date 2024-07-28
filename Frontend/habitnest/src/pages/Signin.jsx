@@ -7,7 +7,7 @@ import { Heading } from "../components/Heading";
 import { InputBox } from "../components/InputBox";
 import { SubHeading } from "../components/SubHeading";
 
-const quotes = [
+const quotes  [
     "The secret of your success is found in your daily routine.",
     "Motivation is what gets you started. Habit is what keeps you going.",
     "Small daily improvements over time lead to stunning results.",
