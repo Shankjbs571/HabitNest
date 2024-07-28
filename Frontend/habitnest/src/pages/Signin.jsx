@@ -40,11 +40,11 @@ export const Signin = () => {
                 },
                 { withCredentials: true } // This ensures cookies are included in the request
             );
-
-            if (response.data.success) {
+            if (response.status === 200) {
                 navigate("/dashboard");
             } else {
                 setError("Login failed: No token received");
+                console.log(response)
             }
         } catch (error) {
             if (error.response && error.response.status === 411) {
